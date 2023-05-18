@@ -1,0 +1,182 @@
+body {
+    position: relative;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Cubano-Regular';
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .section-banner {
+    background: url('https://res.cloudinary.com/dwv8vqkxo/image/upload/v1482444054/swan.jpg') center;
+    background-size: cover;
+    margin-bottom: 4px;
+    box-shadow: 0 0 1px 0;
+    margin-top: 50px;
+  }
+  
+  #banner {
+    color: white;
+    font-family: monospace;
+  }
+  
+  .wall-sticker {
+    margin: 200px 50px 200px 50px;
+    padding: 50px 20px 50px 20px;
+    font-size: 40px;
+    background-color: rgba(230, 117, 218, 0.2);
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+  }
+  .lead{
+      font-size: 130%
+  }
+  
+  
+  
+  
+  .section-projects {
+    color:  rgba(82, 41, 79, 0.99);
+    font-size: 16px;
+    font-family:sans-serif;
+    font-stretch: extra-expanded;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 120px 4px 120px;
+    box-shadow: 0px 1px 0px 1px solid #eeee;
+  }
+  
+  .projects {
+    padding: 5px 0px;
+  }
+  .first{
+      padding: 5px 5px 20px 5px;
+      margin-bottom: 20px;
+  }
+  .second{
+      padding: 20px 5px 10px 5px;
+      margin-bottom: 20px;
+  }
+  #what-we-do{
+      color: #ffffff;
+   background-color: #e675da;
+    padding: 2px 2px;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .contact-us{
+    font-family: cursive;
+    color: rgba(131, 172, 176, 1);
+    background-color: #e675da;
+    padding: 50px;
+    border: 1px solid rgba(148, 165, 141, 0.43);
+  }
+  .btn,
+  .checkbox{
+      font-size: 14px;
+      font-weight: 100;
+      color: rgba(1, 1, 1, 0.5);
+  }
+  .our-contact {
+    padding: 60px
+  }
+  
+  .social{
+      position: relative;
+  }
+  .div-our-world{
+    margin-bottom: 30px;
+  }
+  #our-contact{
+     font-family: sans-serif;
+     color: #e675da;;
+     background-color: #ffffff;
+     text-align: center;
+  }
+  .heading-our-world{
+    font-family: cursive;
+    font-size: 24px;
+   padding-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .our-contact-social{
+      color: #ffffff;
+    border: 0.1px solid transparent;
+    border-radius: 5px;
+    background: rgba(98, 98, 98, 0.05);
+      padding-bottom: 10px;
+  }
+  .fa-linkedin,
+  .fa-google-plus{
+      position: absolute;
+      left: 60%;
+      color: #ffffff;
+  }
+  .fa-twitter,
+  .fa-github{
+     right:70%;
+     color: #ffffff;
+  }
+  .copyright:hover,
+  .copyright:focus,
+  .fa:hover,
+  .fa:focus{
+      color:  rgba(157, 219, 227, 0.99);
+      transition: 0.5s;
+  }
+  .form-group,
+  .btn{
+    box-shadow: 0 0.5px 1px rgba(131, 172, 176, 0.6);
+  }
+  .about-page {
+    height: auto;
+    background-color: rgba(138, 165, 164, 0.38);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(227, 82, 194, 0.99);
+  }
+  
+  #thumbnail{
+   font-size: 14px;
+    padding-left: 5px;
+      font-family: cursive;
+      word-spacing: 25px;
+  }
+  .footer {
+    background-color: rgba(34, 34, 34, 1);
+    border-top: 1px solid rgba(148, 165, 141, 0.43);
+    margin-top: 0.5px;
+    font-family: cursive;
+  }
+  .copyright{
+     color:  rgba(138, 145, 145, 0.99);
+      font-size: 14px;
+  }
+  #myNavbar{
+    padding-bottom: 5px;
+  }
+  .nav-item{
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+  }
+  .navbar-brand,
+  .scrollable{
+    color: #000000 !important;
+    font-family: fantasy;
+      font-size: 18px;
+  }
+  .scrollable:hover{
+    color: rgba(34, 34, 34, 1) !important;
+  }
+  .nav-item:hover,
+  .nav-itema:active{
+    border: 1px solid transparent;
+    background-color: #cb4141;
+    transition: 0.5s;
+  }
+  

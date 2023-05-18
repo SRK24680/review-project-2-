@@ -1,0 +1,78 @@
+p
+{
+  font-weight: bold;
+}
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 8.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0.7}
+  to {opacity: 1}
+}
+#El{
+  color: rgb(249,206,14);;
+  
+}
+.pl{
+  
+}
+   .imgcenter {
+      display: block;
+      margin-left: 2px;
+      margin-right: auto;
+    }
+
+
+
+jumbotron
+{
+  background-color:pink;
+}
+#font{
+  font-style:italic;
+  font-size:20px;    
+ font-weight: bold;
+}
+.c {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.k {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+li:last-child {
+  border: none;
+}
+ 
+.l {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+} 
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
